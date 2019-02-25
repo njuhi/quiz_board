@@ -1,0 +1,25 @@
+body{
+  /*
+  background-image: url('../images/background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  background-color: #6495ed;
+  font-family: 'Concert One', cursive;
+  font-size: 2em;
+}
+h1{
+  text-align: center;
+  padding: 0.5em;
+}
+div #result{
+  margin-top: 1em;
+  margin-right: 7em;
+}
+#result{
+  font-style: italic;
+  font-size: 1.5em;
+  border: 1px solid gray;
+}
+.btn{
+  padding: 1em;
+}

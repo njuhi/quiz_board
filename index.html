@@ -3,21 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>quiz-board</title>
-    <link  href="css/scripts.css" rel="stylesheet"></link>
+
     <link  href="css/bootstrap.css" rel="stylesheet">
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+    <link  href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
   </head>
   <body>
-    <h1>QUIZ-BOARD</h1>
+
 <div class="container">
+  <form id="test">
   <div class="row">
     <div class="col-md-12">
       <div class="jumbotron">
         <div class="well">
           <div class="radio">
+                <h1>QUIZ-BOARD</h1>
             <p>1. What are JavaScript Data Types?</p>
             <label>
                <input type="radio" name="choice1" value="0" checked>
@@ -38,8 +38,8 @@
       </div>
     </div>
   </div>
-</div>
-<div class="container">
+
+
   <div class="row">
     <div class="col-md-12">
       <div class="jumbotron">
@@ -58,15 +58,14 @@
                <input type="radio" name="choice2" value="0" checked>
                   used to pass value
               </label>
-                <label>
-
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<div class="container">
+    </div>
+
+
+
   <div class="row">
     <div class="col-md-12">
       <div class="jumbotron">
@@ -85,15 +84,13 @@
                <input type="radio" name="choice3" value="0" checked>
                   propety infinity
               </label>
-                <label>
-
-          </div>
+            </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="container">
+
+
   <div class="row">
     <div class="col-md-12">
       <div class="jumbotron">
@@ -101,26 +98,24 @@
           <div class="radio">
             <p>4. What is bolean?</p>
             <label>
-               <input type="radio" name="choice4" value="true" checked>
+               <input type="radio" name="choice4" value="0" checked>
                 true
               </label>
                 <label>
-               <input type="radio" name="choice4" value="false" checked>
+               <input type="radio" name="choice4" value="0" checked>
                   false
               </label>
                 <label>
-               <input type="radio" name="choice4" value="both false and true" checked>
+               <input type="radio" name="choice4" value="16.6" checked>
                   both false and true
               </label>
-                <label>
-
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="container">
+
+
   <div class="row">
     <div class="col-md-12">
       <div class="jumbotron">
@@ -139,15 +134,13 @@
                <input type="radio" name="choice5" value="0" checked>
                   used to call another method
               </label>
-                <label>
-
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="container">
+
+
   <div class="row">
     <div class="col-md-12">
       <div class="jumbotron">
@@ -162,26 +155,29 @@
                <input type="radio" name="choice6" value="0" checked>
                   primitive
               </label>
-                <label>
-               <input type="radio" name="choice6" value="0" checked>
+              <label >
+                <input type="radio" name="choice6" value="0" checked>
                 reference types
               </label>
-                <label>
-                  <br>
-                  <button type="button" id="button"></button>
-                </br>
-                  <ul>
-                    <li><button type="submit" class="btn">submit!</button></li>
-                  </ul>
-
-          </div>
+            </div>
         </div>
       </div>
     </div>
   </div>
+
+  <button type="submit" value="submit" class="btn" id="clickhere">submit!</button>
+
+<div id="result">
+  <p ></p>
+</div>
+</form>
 </div>
 
+<script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
 
-
+<script src="js/scripts.js"></script>
   </body>
 </html>
